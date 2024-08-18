@@ -23,10 +23,10 @@ tiny-etl: For converting raw climate data into compatible IPFS storage formats a
 
 `tiny etl` is a set of functions for wrangling public climate data, allowing converting into a storage format such as [IPFS](https://ipfs.tech/). 
 
-Also, `tiny-etl` functions allow users to convert their climate data to a common [Zarr](https://zarr.readthedocs.io/en/stable/)[^1] format
+These functions allow users to convert their climate data to a common [Zarr](https://zarr.readthedocs.io/en/stable/)[^1] format
 
 
-`tiny etl` is still in alpha version 1.11.0 as we are early in development.
+Note: `tiny etl` is still in alpha version 1.11.0 as we are early in development.
 
 
 Data Sources
