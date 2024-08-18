@@ -28,13 +28,14 @@ Brief description of Feature 2.
 Example Usage
 Try a [common use case or example]. See how, despite the style, it is fused into one [kernel/process] with the power of [a key project feature or philosophy].
 
+```
 python
 Copy code
 DEBUG=3 python3 -c "from [tiny-etl] import [important_class];  
 N = 1024; a, b = [tiny-etl].[function](N, N), [tiny-etl].[function](N, N);  
 c = (a.reshape(N, 1, N) * b.T.reshape(1, N, N)).sum(axis=2);  
 print((c.[numpy_equivalent]()) - (a.[numpy_equivalent] @ b.[numpy_equivalent]()).mean())"
-
+```
 
 Data Sources
 
