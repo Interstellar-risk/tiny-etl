@@ -21,8 +21,6 @@ tiny-etl: For converting raw climate data into compatible IPFS storage formats a
 
 ---
 
-This may not be the best deep learning framework, but it is a deep learning framework.
-
 `tiny etl` is a set of functions for wrangling public climate data, allowing converting into a storage format such as [IPFS](https://ipfs.tech/). 
 
 Also, `tiny-etl` functions allow users to convert their climate data to a common [Zarr](https://zarr.readthedocs.io/en/stable/)[^1] format
